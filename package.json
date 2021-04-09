@@ -1,0 +1,19 @@
+{
+  "name": "swagger-tool",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node src/main.mjs"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "eslint": "^7.23.0",
+    "prettier": "^2.2.1",
+    "prettier-tslint": "^0.4.2",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "moment": "^2.29.1"
+  }
+}
